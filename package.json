@@ -1,5 +1,5 @@
 {
-  "name": "seminars-frontend-1",
+  "name": "seminars-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +7,16 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "server": "json-server -p3000 --watch seminars.json"
   },
   "dependencies": {
+    "antd": "^5.23.3",
+    "dayjs": "^1.11.13",
+    "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-transition-group": "^4.4.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
